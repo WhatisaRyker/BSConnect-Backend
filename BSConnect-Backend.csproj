@@ -12,6 +12,11 @@
 
   <ItemGroup>
     <ProjectReference Include="../BSConnect-Protos/BSConnect-Protos.csproj" />
+    <ProjectReference Include="BSConnect.Hubs\BSConnect.Hubs.csproj" />
+    <ProjectReference Include="BSConnect.Routes\BSConnect.Routes.csproj" />
+    <ProjectReference Include="BSConnect.Services\BSConnect.Services.csproj" />
+    <ProjectReference Include="BSConnect.Data\BSConnect.Data.csproj" />
+    <ProjectReference Include="BSConnect.Auth\BSConnect.Auth.csproj" />
   </ItemGroup>
 
   <ItemGroup>
